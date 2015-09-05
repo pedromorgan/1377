@@ -6,7 +6,7 @@ Part 2
 * [5. Determination of the plastic limit and plastic index](/2/5.md)
 * [6. Determination of shrinkage characteristics](/2/6.md)
 * [7. Determination of density](/2/7.md)
-* [8. Determination of ???](/2/8.md)
-* [9. ???](/2/9.md)
+* [8. Detmination of particle density](/2/8.md)
+* [9. Determination of particle size distribution](/2/9.md)
 
 
