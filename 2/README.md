@@ -1,4 +1,4 @@
-Part 2
+Part 2 Soil Classification
 ==============================
 
 * [3. Determination of moisture content](/2/3.md)

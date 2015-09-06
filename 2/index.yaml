@@ -1,21 +1,41 @@
-clauses:
-    - clause: 3
-      title: Determination of moisture content
-      
-    - clause: 4
-      title: Determination of liquid limit
-      
-    - clause: 5
-      title: Determination of the plastic limit and plastic index
-      
-    - clause: 6
-      title: Determination of shrinkage characteristics
-      
-    - clause: 7
-      title: Determination of density
-      
-    - clause: 8
-      title: Detmination of particle density
-      
-    - clause: 9
-      title: Determination of particle size distribution
+- clauses:
+  - {title: 3.1 General}
+  - {title: 3.2 Oven-drying method}
+  - {title: 3.3 Method for saturation moisture content of chalk}
+  - {title: 3.4 Determination of the liquid limit}
+  file: ''
+  title: 3. Determination of moisture content
+- clauses:
+  - {title: 4.1 General}
+  file: ''
+  title: 4. Determination of liquid limit
+- clauses:
+  - {title: 5.1 General}
+  file: ''
+  title: 5. Determination of the plastic limit and plastic index
+- clauses:
+  - {title: 6.1 General}
+  file: ''
+  title: 6. Determination of shrinkage characteristics
+- clauses:
+  - {title: 7.1 General}
+  - {title: 7.2 Linear measurement method}
+  - {title: 7.3 Immersion in water method}
+  - {title: 7.4 Water displacement method}
+  file: ''
+  title: 7. Determination of density
+- clauses:
+  - {title: 8.1 General}
+  - {title: 8.2 Gas Jar Method}
+  - {title: 8.3 Small pyknometer method}
+  - {title: 8.4 Lare pyknometer method}
+  file: ''
+  title: 8. Detmination of particle density
+- clauses:
+  - {title: 9.1 General}
+  - {title: 9.2 Wet sieving method}
+  - {title: 9.3 Dry sieving method}
+  - {title: 9.4 Sedimentation by the pipette method}
+  - {title: 9.5 Sedimentation by the hydrometer method}
+  file: ''
+  title: 9. Determination of particle size distribution
