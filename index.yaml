@@ -1,0 +1,108 @@
+issue: '1990'
+org: BS
+parts:
+- part: '2'
+  sections:
+  - - clauses:
+      - {title: 3.1 General}
+      - {title: 3.2 Oven-drying method}
+      - {title: 3.3 Method for saturation moisture content of chalk}
+      - {title: 3.4 Determination of the liquid limit}
+      file: /2/3.md
+      org: BS
+      part: '2'
+      section: '3'
+      title: 3. Determination of moisture content
+    - clauses:
+      - {title: 4.1 General}
+      file: /2/4.md
+      org: BS
+      part: '2'
+      section: '4'
+      title: 4. Determination of liquid limit
+    - clauses:
+      - {title: 5.1 General}
+      file: /2/5.md
+      org: BS
+      part: '2'
+      section: '5'
+      title: 5. Determination of the plastic limit and plastic index
+    - clauses:
+      - {title: 6.1 General}
+      file: /2/6.md
+      org: BS
+      part: '2'
+      section: '6'
+      title: 6. Determination of shrinkage characteristics
+    - clauses:
+      - {title: 7.1 General}
+      - {title: 7.2 Linear measurement method}
+      - {title: 7.3 Immersion in water method}
+      - {title: 7.4 Water displacement method}
+      file: /2/7.md
+      org: BS
+      part: '2'
+      section: '7'
+      title: 7. Determination of density
+    - clauses:
+      - {title: 8.1 General}
+      - {title: 8.2 Gas Jar Method}
+      - {title: 8.3 Small pyknometer method}
+      - {title: 8.4 Lare pyknometer method}
+      file: /2/8.md
+      org: BS
+      part: '2'
+      section: '8'
+      title: 8. Detmination of particle density
+    - clauses:
+      - {title: 9.1 General}
+      - {title: 9.2 Wet sieving method}
+      - {title: 9.3 Dry sieving method}
+      - {title: 9.4 Sedimentation by the pipette method}
+      - {title: 9.5 Sedimentation by the hydrometer method}
+      file: /2/9.md
+      org: BS
+      part: '2'
+      section: '9'
+      title: 9. Determination of particle size distribution
+  title: Part 2 Soil Classification
+- part: '3'
+  sections:
+  - - clauses:
+      - {title: 3.1 Something else}
+      file: /3/3.md
+      org: BS
+      part: '3'
+      section: '3'
+      title: 3. Foo Bar
+    - clauses:
+      - {title: 4.1 Something else}
+      file: /3/4.md
+      org: BS
+      part: '3'
+      section: '4'
+      title: 4. Foo Bar
+    - clauses:
+      - {title: 5.1 Something else}
+      file: /3/5.md
+      org: BS
+      part: '3'
+      section: '5'
+      title: 5. Foo Bar
+    - clauses:
+      - {title: 7.1 Something else}
+      file: /3/7.md
+      org: BS
+      part: '3'
+      section: '7'
+      title: 7. Foo Bar
+    - clauses:
+      - {title: 7.1 Something else}
+      file: /3/9.md
+      org: BS
+      part: '3'
+      section: '9'
+      title: 7. Foo Bar
+  title: Part 3 Classification
+standard: '1377'
+title: BS1377:1990

@@ -44,7 +44,7 @@ def index():
 	
 	dirs = _get_dirs()
 	
-	toc = {}
+	main_index = dict(standard="1377", issue="1990", org="BS", title="BS1377:1990", parts=[])
 	
 	
 	print dirs
@@ -57,7 +57,8 @@ def index():
 		soup = BeautifulSoup(html)
 		
 		dic = {}
-		dic['part_title'] = str(soup.find("h1").text).strip()
+		dic['title'] = str(soup.find("h1").text).strip()
+		dic['part'] = dic['title'][4:].strip().split(" ")[0].strip()
 		dic['sections'] = []
 
 		
@@ -82,8 +83,9 @@ def index():
 			data = dict(title=title, clauses=toc, file=f, part= str(d)[1:], org="BS", section=num)
 			idx.append( data )
 		dic['sections'].append(idx)
-		_write_yaml("%s/%s/index.yaml" % (ROOT_PATH, d), dict(contents=idx) )
+		_write_yaml("%s/%s/index.yaml" % (ROOT_PATH, d), dic )
+		main_index['parts'].append(dic)
 		#print idx
-		break
+		#break
 	
-		
+	_write_yaml("%s/index.yaml" % (ROOT_PATH), main_index )	
