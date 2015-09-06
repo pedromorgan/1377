@@ -43,6 +43,10 @@ def index():
 	
 	
 	dirs = _get_dirs()
+	
+	toc = {}
+	
+	
 	print dirs
 	for d in dirs:
 		files = _get_md_files(d)
