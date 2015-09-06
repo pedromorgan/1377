@@ -59,7 +59,7 @@ def index():
 		dic = {}
 		dic['title'] = str(soup.find("h1").text).strip()
 		dic['part'] = dic['title'][4:].strip().split(" ")[0].strip()
-		dic['sections'] = []
+		#dic['sections'] = []
 
 		
 		idx = []
@@ -82,7 +82,7 @@ def index():
 			print "NO = ", num, type(num)
 			data = dict(title=title, clauses=toc, file=f, part= str(d)[1:], org="BS", section=num)
 			idx.append( data )
-		dic['sections'].append(idx)
+		dic['sections'] = idx
 		_write_yaml("%s/%s/index.yaml" % (ROOT_PATH, d), dic )
 		main_index['parts'].append(dic)
 		#print idx

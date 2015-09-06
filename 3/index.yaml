@@ -1,38 +1,38 @@
 part: '3'
 sections:
-- - clauses:
-    - {title: 3.1 Something else}
-    file: /3/3.md
-    org: BS
-    part: '3'
-    section: '3'
-    title: 3. Foo Bar
-  - clauses:
-    - {title: 4.1 Something else}
-    file: /3/4.md
-    org: BS
-    part: '3'
-    section: '4'
-    title: 4. Foo Bar
-  - clauses:
-    - {title: 5.1 Something else}
-    file: /3/5.md
-    org: BS
-    part: '3'
-    section: '5'
-    title: 5. Foo Bar
-  - clauses:
-    - {title: 7.1 Something else}
-    file: /3/7.md
-    org: BS
-    part: '3'
-    section: '7'
-    title: 7. Foo Bar
-  - clauses:
-    - {title: 7.1 Something else}
-    file: /3/9.md
-    org: BS
-    part: '3'
-    section: '9'
-    title: 7. Foo Bar
+- clauses:
+  - {title: 3.1 Something else}
+  file: /3/3.md
+  org: BS
+  part: '3'
+  section: '3'
+  title: 3. Foo Bar
+- clauses:
+  - {title: 4.1 Something else}
+  file: /3/4.md
+  org: BS
+  part: '3'
+  section: '4'
+  title: 4. Foo Bar
+- clauses:
+  - {title: 5.1 Something else}
+  file: /3/5.md
+  org: BS
+  part: '3'
+  section: '5'
+  title: 5. Foo Bar
+- clauses:
+  - {title: 7.1 Something else}
+  file: /3/7.md
+  org: BS
+  part: '3'
+  section: '7'
+  title: 7. Foo Bar
+- clauses:
+  - {title: 7.1 Something else}
+  file: /3/9.md
+  org: BS
+  part: '3'
+  section: '9'
+  title: 7. Foo Bar
 title: Part 3 Classification
