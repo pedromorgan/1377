@@ -46,8 +46,8 @@ def index():
 	print dirs
 	for d in dirs:
 		files = _get_md_files(d)
-		#print d, files
-		print "==========", ROOT_PATH + d + "/README.md"
+		print "d=", d
+		#print "==========", ROOT_PATH + d + "/README.md"
 		txt =  _read_file(ROOT_PATH + d + "/README.md")
 		html = mistune.markdown(txt)
 		soup = BeautifulSoup(html)
@@ -59,7 +59,7 @@ def index():
 		
 		idx = []
 		for f in files:
-			print f
+			#print f
 			txt =  _read_file(ROOT_PATH + f)
 			html = mistune.markdown(txt)
 			#print html
@@ -69,13 +69,17 @@ def index():
 			toc = []
 			for h2 in soup.findAll("h2"):
 				toc.append( dict(title=str(h2.text).strip()) ) 
-			print title, toc
+			#print title, toc
 			#'toc.append( dict(file=f, title=title, toc=toc) )
-			fff =  f[len(ROOT_PATH):]
-			idx.append( dict(title=title, clauses=toc, file=fff) )
+			#fff =  f
+			#print f, fff
+			num = f.split("/")[-1][:-3]
+			print "NO = ", num, type(num)
+			data = dict(title=title, clauses=toc, file=f, part= str(d)[1:], org="BS", section=num)
+			idx.append( data )
 		dic['sections'].append(idx)
-		_write_yaml("%s/%s/index.yaml" % (ROOT_PATH, d), idx)
-		print idx
+		_write_yaml("%s/%s/index.yaml" % (ROOT_PATH, d), dict(contents=idx) )
+		#print idx
 		break
 	
 		
